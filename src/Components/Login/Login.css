@@ -1,0 +1,124 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login h1 {
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.login__logo {
+  object-fit: contain;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.login__inputContainer {
+  max-width: 350px;
+  width: 350px;
+  height: 320px;
+  border: 1px solid lightgray;
+  padding: 30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin-bottom: 2rem;
+}
+
+.login__formControl {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.login__formControl > label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.login__formControl > input {
+  padding: 7px;
+  background-color: #e8f0fe;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.login__formControl > input:focus {
+  box-shadow: 0px 0px 5px #f8b55d;
+  border: 1px solid #eb7c32;
+}
+
+.login__inputContainer button {
+  background-color: #febd69;
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid rgb(143, 93, 1);
+  outline: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+.login__inputContainer button:hover {
+  box-shadow: 0px 0px 6px #ca934b;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 2rem;
+  padding: 0 30px;
+  color: gray;
+}
+.signinBtn {
+  background-color: #e8f0fe;
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid rgb(145, 145, 145);
+  outline: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+
+.signinBtn:hover {
+  box-shadow: 0px 0px 4px #53f4ff;
+}
+
+.login__footer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__footer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__footer > div > small {
+  color: blue;
+  margin: 0px 6px;
+  cursor: pointer;
+}
+.login__footer > small {
+  margin-top: 0.5rem;
+}

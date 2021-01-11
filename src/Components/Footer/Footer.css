@@ -1,0 +1,40 @@
+.footer {
+  background-color: #232f3e;
+  height: auto;
+  margin-top: 3rem;
+  color: white;
+
+  padding: 1rem;
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  max-width: 1150px;
+  margin: 40px auto;
+}
+
+.footer__option {
+  flex: 1;
+}
+.footer__option > h4 {
+  margin-bottom: 1rem;
+}
+.footer__option > p {
+  margin-top: 8px;
+  color: lightgray;
+  font-size: 14px;
+  cursor: pointer;
+}
+.footer__option > p:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 2rem;
+    grid-gap: 2rem;
+  }
+}
